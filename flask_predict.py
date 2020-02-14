@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 # load the pickle file
-with open('./model/rf.pkl', 'rb') as model_file:
+with open('./data/rf.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 app = Flask(__name__)
