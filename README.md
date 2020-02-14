@@ -18,7 +18,12 @@ To send the requests: <br>
 Use **localhost:5000/apidocs** on your locak system. <br> <br>
 Alernatively,<br>
 Open **Postman**, connect to the **localhost:5000/predict_file** and POST your request.<br>
+The Postman response should look like this: <br>
+![response](img/snapshot.png)
 
+<br>
+
+The response is [0,2,1,1] which means that the first sample belongs to specie 0 and so on...
 
 ## Author
 * **Rupali Sinha** - *Initial work*
