@@ -15,7 +15,7 @@ $ docker run -p 5000:5000 rf-api
 ```
 
 To send the requests: <br>
-Use **localhost:5000/apidocs** on your locak system. <br> <br>
+Use **localhost:5000/apidocs** on your local system. <br> <br>
 Alernatively,<br>
 Open **Postman**, connect to the **localhost:5000/predict_file** and POST your request.<br>
 The Postman response should look like this: <br>
