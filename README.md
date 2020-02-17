@@ -10,7 +10,7 @@ Note: Docker should be installed on the local host.
 2. Run:
 
 ```
-$ docker build -t rf-api
+$ docker build -t rf-api .
 $ docker run -p 5000:5000 rf-api
 ```
 
